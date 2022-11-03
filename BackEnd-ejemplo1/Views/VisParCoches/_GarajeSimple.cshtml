@@ -1,0 +1,24 @@
+﻿@using BackEnd_ejemplo1.Models;
+
+@model Garaje
+    @{ 
+        Layout = null;
+    }
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Propietario</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>item.IdCoche</th>
+            <th>Item.Propieario</th>
+        </tr>
+    }
+
+</table>
+
+
